@@ -10,7 +10,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    sh 'docker build -t gemmaporrill1/endtoendproject10jul:v1 .'
+                    sh 'docker build -t gemmaporrill/endtoendproject10jul:v1 .'
                 }
             }
         }
